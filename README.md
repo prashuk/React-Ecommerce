@@ -18,13 +18,10 @@ Next, from the project folder, install the dependencies:
 
     node start
     
+This will launch the Node server on port 3000. Open up your browser and head over to:
+
+http://localhost:3000/movies
+    
 ### Build
 
     node run build
-
-This will launch the Node server on port 3000. If that port is busy, you can set a different point in config/default.json.
-
-Open up your browser and head over to:
-
-http://localhost:3000/movies
-
