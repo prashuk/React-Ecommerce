@@ -10,18 +10,18 @@ Make sure to follow all these steps exactly as explained below. Do not miss any 
 
 ### Install the Dependencies
 
-Next, from the project folder, install the dependencies:
+From the project folder, install the dependencies:
 
     sudo npm i
 
 ### Start
 
-    node start
+    npm start
     
 This will launch the Node server on port 3000. Open up your browser and head over to:
 
-http://localhost:3000/movies
+http://localhost:3000/
     
 ### Build
 
-    node run build
+    npm run build
