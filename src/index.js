@@ -7,7 +7,7 @@ import registerServiceWorker from "./registerServiceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
 
-console.log("SUPERNAME ", process.env.REACT_APP_NAME);
+console.log("SUPERMAN ", process.env);
 
 ReactDOM.render(
   <BrowserRouter>
