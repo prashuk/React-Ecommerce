@@ -1,41 +1,26 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
 import Joi from "joi-browser";
+
 import Form from "./common/form";
 import auth from "../services/authService";
 
+import { Redirect } from "react-router-dom";
+
 class LoginForm extends Form {
-  //   username = React.createRef();
-
-  //   componentDidMount() {
-  //     this.username.current.focus();
-  //   }
-
   state = {
     data: { username: "", password: "" },
-    errors: {}
+    errors: {},
   };
 
   schema = {
-    username: Joi.string()
-      .required()
-      .label("Username"),
-    password: Joi.string()
-      .required()
-      .label("Password")
+    username: Joi.string().required().label("Username"),
+    password: Joi.string().required().label("Password"),
   };
 
   doSubmit = async () => {
-    // Call the server
-    // console.log("Submitted");
-
     try {
       const { data } = this.state;
       await auth.login(data.username, data.password);
-      // const { data: jwt } = await login(data.username, data.password); // 3
-
-      // localStorage.setItem("token", jwt); // 2 // moved this line to authServices
-      // this.props.history.push("/"); // 1
 
       const { state } = this.props.location;
 

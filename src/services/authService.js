@@ -1,7 +1,8 @@
 import jwtDecode from "jwt-decode";
+
 import http from "./httpService";
+
 import { apiURL } from "../config.json";
-// import { getCurrentUser } from "./authService";
 
 const apiEndpoint = apiURL + "/auth";
 const tokenKey = "token";
@@ -39,5 +40,5 @@ export default {
   loginWithJwt,
   logout,
   getCurrentUser,
-  getJwt
+  getJwt,
 };
