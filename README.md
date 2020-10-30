@@ -12,16 +12,16 @@ Make sure to follow all these steps exactly as explained below. Do not miss any 
 
 From the project folder, install the dependencies:
 
-    sudo npm i
+    sudo npm update && npm install
 
 ### Start
 
     npm start
-    
+
 This will launch the Node server on port 3000. Open up your browser and head over to:
 
 http://localhost:3000/
-    
+
 ### Build
 
     npm run build
