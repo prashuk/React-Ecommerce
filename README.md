@@ -1,5 +1,9 @@
 # React-Ecommerce-Web-App
 
+https://myapp-react-ecommerce.herokuapp.com/register
+
+Note: Backend (Express + Nodejs + Mongo) server is down due to expiration of free account.
+
 ## Introduction
 
 This project is the frontend of E-Commerce and it is based on React, an imaginary online shopping.
