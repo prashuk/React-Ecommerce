@@ -1,4 +1,4 @@
-# ecommerce-react-app
+# React-Ecommerce-Web-App
 
 ## Introduction
 
@@ -12,11 +12,12 @@ Make sure to follow all these steps exactly as explained below. Do not miss any 
 
 From the project folder, install the dependencies:
 
-    sudo npm update && npm install
+    sudo npm update
+    sudo npm install
 
 ### Start
 
-    npm start
+    sudo npm start
 
 This will launch the Node server on port 3000. Open up your browser and head over to:
 
@@ -24,4 +25,4 @@ http://localhost:3000/
 
 ### Build
 
-    npm run build
+    sudo npm run build
