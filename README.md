@@ -1,6 +1,6 @@
 # React-Ecommerce-Web-App
 
-https://myapp-react-ecommerce.herokuapp.com/register
+https://myapp-react-e-commerce.web.app/register
 
 Note: Backend (Express + Nodejs + Mongo) server is down due to expiration of free account.
 
